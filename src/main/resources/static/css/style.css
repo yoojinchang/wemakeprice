@@ -1,0 +1,60 @@
+.box-border {
+    border: 1px solid black;
+    padding: 25px;
+    width: 600px;
+}
+
+.form-box {
+    display: grid;
+    margin-bottom: 20px;
+}
+
+.form-box label {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-box label div {
+    width: 18%;
+}
+
+.form-box label:first-child {
+    margin-top: 10px;
+}
+
+.form-box input {
+    width: 100px;
+    padding: 5px;
+}
+
+.form-box label:first-child input {
+    width: 300px;
+}
+
+.form-box select {
+    width: 200px;
+    padding: 5px;
+}
+
+.result-box {
+    display: grid;
+}
+
+.result-box-inner {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.result-box-label {
+    width: 10%;
+}
+
+.result-box-content {
+    width: fit-content;
+    word-break: break-all;
+}
+.submit-button-box button {
+    float: right;
+    width: 60px;
+}
